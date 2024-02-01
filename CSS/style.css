@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Global Settings */
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +10,27 @@
 :root {
     font-size: 62.5%;
     font-family: 'Mulish', sans-serif;
+
+    /* Color Palette */
+    --eerieBlack: #1E1E1E;
+    --jet: #323238;
+    --cerulean: #02799D;
+    --frenchGray: #C4C4CC;
+    --platinum: #E1E1E6;
+}
+
+/* Body */
+body {
+    background: var(--eerieBlack);
+}
+
+/* Header */
+header h1 {
+    font-size: 5.8rem;
+    color: var(--cerulean);
+}
+
+header p {
+    font-size: 3.2rem;
+    color: var(--platinum);
 }
