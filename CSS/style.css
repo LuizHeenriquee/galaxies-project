@@ -135,3 +135,26 @@ header p {
         padding: 0 3.1rem 4.6rem;
     }
 }
+
+/* Mobile/Laptop Screen 1440px */
+@media (min-width: 1440px) {
+    main {
+        max-width: 133rem;
+    }
+    
+    header h1 {
+        width: 58.5rem;
+        font-size: 5.8rem;
+    }
+
+    header p {
+        font-size: 3.2rem;
+    }
+
+    .galaxies {
+        display: grid;
+        place-content: center;
+        grid-template-columns: repeat(3, 37.0rem);
+        gap: 48px 60px;
+    }
+}
