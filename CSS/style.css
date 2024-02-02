@@ -33,12 +33,14 @@ main {
 /* Header */
 header h1 {
     font-size: 3.1rem;
+    font-weight: 900;
     color: var(--cerulean);
     margin-bottom: .8rem;
 }
 
 header p {
     font-size: 2.2rem;
+    font-weight: 600;
     color: var(--platinum);
 }
 
@@ -58,18 +60,74 @@ header p {
     overflow: hidden;
 }
 
-.card img {
-    max-width: fit-content;
-}
-
 .card h2 {
     font-size: 2.8rem;
+    font-weight: 900;
     color: var(--platinum);
     padding: 2.4rem;
 }
 
 .card p {
     font-size: 1.6rem;
+    font-weight: 600;
     color: var(--frenchGray);
     padding: 0 2.3rem 3.8rem;
 }
+
+/* Mobile Screen 425px */
+@media (min-width: 425px) {
+    main {
+        min-width: 40.5rem;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    header p {
+        font-size: 2.6rem;
+    }
+
+    .card {
+        max-width: 30rem;
+    }
+
+    .card h2 {
+        font-size: 3.2rem;
+        padding: 2.8rem;
+    }
+    
+    .card p {
+        font-size: 2.0rem;
+        padding: 0 2.7rem 4.2rem;
+    }
+}
+
+/* Mobile Screen 768px */
+/* @media (min-width: 768px) {
+    main {
+        max-width: 52rem;
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+
+    header p {
+        font-size: 3rem;
+    }
+
+    .card {
+        max-width: 52rem;
+    }
+
+    .card h2 {
+        font-size: 3.6rem;
+        padding: 3.2rem;
+    }
+
+    .card p {
+        font-size: 2.4rem;
+        padding: 0 3.1rem 4.6rem;
+    }
+} */
